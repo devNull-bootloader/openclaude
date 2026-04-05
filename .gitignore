@@ -3,6 +3,8 @@ dist/
 *.tsbuildinfo
 .env
 .env.*
+!.env.example
 .openclaude-profile.json
 reports/
 landing/package-lock.json
+coverage/
