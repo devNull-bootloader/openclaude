@@ -30,7 +30,7 @@ jobs:
           bun-version: 1.3.11
 
       - name: Set up Python
-        uses: actions/setup-python@0a5c47487595a054a2831a08cb03e21f520dcf33 # v5.0.0
+        uses: actions/setup-python@v5.0.0
         with:
           python-version: "3.12"
           cache: "pip"
